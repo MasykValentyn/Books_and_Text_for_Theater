@@ -1,0 +1,139 @@
+:root {
+    /* Font */
+    --secondary-font-family: Roboto, sans-serif;
+    --primary-font: Raleway, sans-serif;
+    /* Colors */
+
+    --main-dark-cl: #111111;
+    --main-light-cl: #ffffff;
+    --accent-ocean-cl: #4D5AE5;
+    --grey-cl-70: rgba(17, 17, 17, 0.7);
+    --main-dark-bg: #434455;
+
+
+    /* Others */
+}
+/**
+  |============================
+  | Common styles
+  |============================
+*/
+body {
+    color: var(--main-dark-cl);
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+/* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+button {
+    font-family: var(--secondary-font-family);
+    cursor: pointer;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/**
+  |============================
+  |Head
+  |============================
+*/
+
+.nav {
+    color: var(--main-light-cl);
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.header{
+    padding: 12px;
+    background-color: var(--main-dark-bg);
+}
+
+.text{
+    color: var(--accent-ocean-cl);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: left;
+}
+/**
+  |============================
+  | body
+  |============================
+*/
+.t-t {
+   
+    text-align: center;
+    padding-bottom: 50px;
+}
+.text-link {
+    color: var(--accent-ocean-cl);
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.t{
+    margin:10px 30px;
+    
+}
+.tlink{
+    text-align: center;
+    font-size: 24px;
+}
+.pagetext{
+    text-align: center;
+}
+.momo-img {
+    margin-left: 50px;
+    margin-right: 50px;
+   gap:50px;
+}
+.role{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.box-links {
+    display: flex;
+    flex-direction: row-reverse;
+}
