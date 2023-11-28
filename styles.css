@@ -101,6 +101,9 @@ button {
   | body
   |============================
 */
+.text-page {
+    padding:50px;
+}
 .t-t {
    
     text-align: center;
@@ -125,8 +128,7 @@ button {
 }
 .momo-img {
     margin-left: 50px;
-    margin-right: 50px;
-   gap:50px;
+    gap:50px;
 }
 .role{
     font-weight: 500;
