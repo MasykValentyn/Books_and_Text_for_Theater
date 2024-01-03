@@ -117,6 +117,7 @@ button {
 
 .t{
     margin:10px 30px;
+    line-height: 2;
     
 }
 .tlink{
@@ -131,7 +132,7 @@ button {
     gap:50px;
 }
 .role{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 1.19;
 }
